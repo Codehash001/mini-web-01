@@ -7,12 +7,12 @@ export default function Footer(){
 		<div className='flex flex-col items-start jutify-between w-full h-auto'>
 		  
 
-		    <h1 className='md:text-2xl text-xl mb-3 font-semibold'>RARE STUDIOS NEW YORK</h1>
+		    <h1 className='text-xl mb-3 font-semibold'>RARE STUDIOS NEW YORK</h1>
 		    <h1 className='md:text-sm text-xs tracking-wide'>&#169;2023 RARE STUDIOS NEW YORK.All Rights Reserved.</h1>
 		  
 		</div>
 		
-		<img src='/footer-icon-right.png' className='md:h-[50px] h-[50px] w-auto'/>
+		<img src='/footer-icon-right.png' className='h-[40px] w-auto'/>
 	</div>	
 </footer>
 
