@@ -19,7 +19,7 @@ export default function Index() {
        	  
        	  <div className='flex flex-col justify-between w-screen h-screen overflow-hidden'>
        	    <div className='flex flex-row justify-between items-center px-16 py-6 text-white'>
-       	  	<div className='md:text-start text-center flex flex-col items-start font-Kanit'>
+       	  	<div className='md:text-start text-center flex flex-col items-start font-Kanit w-full'>
        	  		<h1 className='text-xl font-semibold uppercase'>rare studios new york</h1>
        	  		<h1 className='font-medium uppercase'>A web3 company</h1>
        	  	</div>
