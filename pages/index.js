@@ -23,7 +23,7 @@ export default function Index() {
           className="h-screen md:w-screen w-auto fixed top-0 -z-10"
         /> */}
         <div className="relative h-screen w-screen flex flex-col">
-        <div className="absolute md:bottom-[30px] bottom-10 flex flex-col items-center w-screen">
+        <div className="absolute md:bottom-[20px] bottom-16 flex flex-col items-center w-screen">
         <div className="md:hidden flex flex-row justify-center w-full mt-[300px]">
           <a
             target="_blank"
