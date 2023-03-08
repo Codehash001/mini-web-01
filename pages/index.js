@@ -22,7 +22,7 @@ export default function Index() {
           {/* header */}
 		  <Header/>
           <div className="w-full">
-            <div className="md:hidden flex flex-row items-center mb-8 justify-center ">
+            <div className="md:hidden flex flex-row items-center mb-16 justify-center ">
               <a
                 target="_blank"
                 rel="noreferrer"
