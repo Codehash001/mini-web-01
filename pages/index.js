@@ -23,7 +23,7 @@ export default function Index() {
           className="h-screen md:w-screen w-auto fixed top-0 -z-10"
         /> */}
         <div className="relative min-h-screen w-screen flex flex-col">
-        <div className="absolute bottom-4 flex flex-col items-center w-srceen">
+        <div className="absolute md:bottom-4 bottom-8 flex flex-col items-center w-srceen">
         <Link className="cursor-pointer" activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={500}>
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" className="fill-white animate-bounce"><path d="m18.707 12.707-1.414-1.414L13 15.586V6h-2v9.586l-4.293-4.293-1.414 1.414L12 19.414z"></path></svg>
         </Link>
