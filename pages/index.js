@@ -62,8 +62,8 @@ export default function Index() {
               </a>
             </div>
               <FAQ />
-            <Footer />
           </div>
+          <Footer />
         </div>
       </div>
     </>
