@@ -1,14 +1,14 @@
 export default function Footer(){
     return(
-        <div className=" bg-black w-full h-auto md:px-16 px-2 py-4">
+        <div className=" bg-white w-full h-auto md:px-16 px-2 py-4">
 
-<footer class="text-white font-Kanit">
+<footer class="text-black font-Kanit">
 	<div className='flex items-center jutify-between w-full h-auto'>
 		<div className='flex flex-col items-start jutify-between w-full h-auto'>
 		  
 
-		    <h1 className='text-2xl mb-3 font-semibold tracking-widest'>RARE STUDIOS NEW YORK</h1>
-		    <h1 className='md:text-sm text-xs'>&#169;2023 RARE STUDIOS NEW YORK.All Rights Reserved.</h1>
+		    <h1 className='text-lg mb-2 font-semibold tracking-widest'>RARE STUDIOS NEW YORK</h1>
+		    <h1 className='text-xs'>&#169;2023 RARE STUDIOS NEW YORK.All Rights Reserved.</h1>
 		  
 		</div>
 		
