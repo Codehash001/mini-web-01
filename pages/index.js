@@ -12,7 +12,17 @@ export default function Index() {
         <link rel="icon" href="/Logoicon.png" />
       </Head>
        <div className='flex flex-col items-center-justify-center w-screen h-screen overflow-hidden'>
-       	  <img src='/rarestudios-site-bg-new.png' className='h-screen w-auto fixed top-0 -z-10'/>
+       	  <img src='/rarestudios-site-bg-new.png' className='w-screen h-auto fixed top-0 -z-10'/>
+       	  <div className='flex flex-row justify-between items-center px-16 py-6 text-white'>
+       	  	<div className='flex flex-col items-start font-Kanit'>
+       	  		<h1 className='text-3xl font-semibold uppercase'>rare studios new york</h1>
+       	  		<h1 className='text-lg font-medium uppercase'>A web3 company</h1>
+       	  	</div>
+       	  	
+       	  	<div>
+       	  		<h1>Twitter</h1>
+       	  	</div>
+       	  </div>
        </div> 
     </>
   )
