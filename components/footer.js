@@ -8,7 +8,7 @@ export default function Footer(){
 		  
 
 		    <h1 className='text-lg mb-2 font-semibold tracking-widest'>RARE STUDIOS NEW YORK</h1>
-		    <h1 className='text-xs'>&#169;2023 RARE STUDIOS NEW YORK.All Rights Reserved.</h1>
+		    <h1 className='text-[10px]'>&#169;2023 RARE STUDIOS NEW YORK.All Rights Reserved.</h1>
 		  
 		</div>
 		
