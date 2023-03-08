@@ -13,9 +13,11 @@ export default function Index() {
         <meta name="Description" content="skelee-mini-web" />
         <link rel="icon" href="/Logoicon.png" />
       </Head>
-       <div className='flex flex-col relative w-screen h-screen overflow-hidden'>
+       <div className='flex flex-col w-screen h-screen overflow-hidden'>
        	  <img src='/rarestudios-site-bg-new.png' className='w-screen h-auto fixed top-0 -z-10'/>
-       	  <div className='flex flex-row justify-between items-center px-16 py-6 text-white'>
+       	  
+       	  <div className='flex flex-col justify-between w-screen h-screen overflow-hidden'>
+       	    <div className='flex flex-row justify-between items-center px-16 py-6 text-white'>
        	  	<div className='flex flex-col items-start font-Kanit'>
        	  		<h1 className='text-xl font-semibold uppercase'>rare studios new york</h1>
        	  		<h1 className='font-medium uppercase'>A web3 company</h1>
@@ -43,6 +45,7 @@ export default function Index() {
        	  <div className='absolute bottom-0 w-full'>
        	  <Footer/>
        	  </div>
+       </div>
        </div> 
     </>
   )
