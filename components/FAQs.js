@@ -18,8 +18,8 @@ export default function FAQs() {
   };
  
   return (
-    <div id='faqs'className='md:px-16 px-4 py-4 bg-black/30 filter backdrop-blur-sm text-white'>
-      <Accordion open={open === 1} animate={customAnimation} className='text-start mx-[-10px]'>
+    <div id='faqs'className='mt-10 md:px-16 px-4 py-4 bg-black/30 filter backdrop-blur-sm text-white'>
+      <Accordion open={open === 1} animate={customAnimation} className='text-start mx-[-10px] border-b border-white'>
         <AccordionHeader onClick={() => handleOpen(1)}>
           Background
         </AccordionHeader>
@@ -28,7 +28,7 @@ export default function FAQs() {
         </AccordionBody>
       </Accordion>
       
-      <Accordion open={open === 2} animate={customAnimation} className='text-start mx-[-10px]'>
+      <Accordion open={open === 2} animate={customAnimation} className='text-start mx-[-10px] border-b border-white'>
         <AccordionHeader onClick={() => handleOpen(2)}>
           Projects
         </AccordionHeader>
@@ -37,7 +37,7 @@ export default function FAQs() {
         </AccordionBody>
       </Accordion>
       
-      <Accordion open={open === 3} animate={customAnimation} className='text-start mx-[-10px]'>
+      <Accordion open={open === 3} animate={customAnimation} className='text-start mx-[-10px] border-b border-white'>
         <AccordionHeader onClick={() => handleOpen(3)}>
           Team
         </AccordionHeader>
