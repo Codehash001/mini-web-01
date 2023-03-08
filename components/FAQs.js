@@ -1,4 +1,5 @@
 import { useState, Fragment } from "react";
+import Footer from "../components/footer";
 import {
   Accordion,
   AccordionHeader,
@@ -45,6 +46,7 @@ export default function FAQs() {
           des
         </AccordionBody>
       </Accordion>
+      <Footer />
     </div>
   );
 }
