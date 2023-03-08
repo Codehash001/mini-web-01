@@ -24,7 +24,7 @@ export default function Index() {
        	  		<h1 className='font-medium uppercase'>A web3 company</h1>
        	  	</div>
        	  	
-       	  	<div>
+       	  	<div className='hidden md:flex'>
        	  		<div className='hidden md:flex flex-row items-center'>
        	  			<a target='_blank' rel="noreferrer" href='https://twitter.com/skeleenft'>
      					<div className='px-10 py-1  bg-white rounded-md uppercase mx-2 cursor-pointer'>
