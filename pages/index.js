@@ -18,7 +18,7 @@ export default function Index() {
           className="object-cover h-screen w-screen absolute"
         />
 
-        <div className="relative flex flex-col justify-between w-screen min-h-screen overflow-x-hidden">
+        <div className="relative flex flex-col justify-start w-screen min-h-screen overflow-x-hidden">
           {/* header */}
 		  <Header/>
           <div className="w-full">
@@ -61,9 +61,9 @@ export default function Index() {
                 </div>
               </a>
             </div>
-              <FAQ />
           </div>
         </div>
+        <FAQ />
       </div>
     </>
   );
