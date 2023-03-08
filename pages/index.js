@@ -17,7 +17,7 @@ export default function Index() {
        <div className='flex flex-col w-screen h-screen overflow-hidden'>
        	  <img src='/rarestudios-site-bg-new.png' className='w-screen h-auto fixed top-0 -z-10'/>
        	  
-       	  <div className='flex flex-col md:items-start items-center justify-between w-screen h-screen overflow-hidden'>
+       	  <div className='flex flex-col justify-between w-screen h-screen overflow-hidden'>
        	    <div className='flex flex-row justify-between items-center px-16 py-6 text-white'>
        	  	<div className='md:text-start text-center flex flex-col items-start font-Kanit'>
        	  		<h1 className='text-xl font-semibold uppercase'>rare studios new york</h1>
