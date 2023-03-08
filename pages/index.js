@@ -15,7 +15,7 @@ export default function Index() {
       <div className="flex flex-col w-screen h-screen overflow-hidden">
         <img
           src="/rarestudiosnewyork-sitebg.png"
-          className="object-cover absolute top-0 -z-10"
+          className="object-cover absolute"
         />
 
         <div className="relative flex flex-col justify-between w-screen h-screen overflow-hidden">
