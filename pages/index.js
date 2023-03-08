@@ -22,16 +22,9 @@ export default function Index() {
           src="/rarestudiosnewyork-sitebg.png"
           className="h-screen md:w-screen w-auto fixed top-0 -z-10"
         /> */}
-        <div className="relative min-h-screen w-screen flex flex-col">
-        <div className="absolute md:bottom-4 bottom-10 flex flex-col items-center w-screen">
-        <Link className="cursor-pointer" activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={500}>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="fill-white animate-bounce"><path d="m18.707 12.707-1.414-1.414L13 15.586V6h-2v9.586l-4.293-4.293-1.414 1.414L12 19.414z"></path></svg>
-        </Link>
-        </div>
-
-          <Header/>
-
-          <div className="md:hidden flex flex-row justify-center w-full mt-[300px]">
+        <div className="relative h-screen w-screen flex flex-col">
+        <div className="absolute md:bottom-[20px] bottom-10 flex flex-col items-center w-screen">
+        <div className="md:hidden flex flex-row justify-center w-full mt-[300px]">
           <a
             target="_blank"
             rel="noreferrer"
@@ -70,6 +63,13 @@ export default function Index() {
             </div>
           </a>
         </div>
+
+        <Link className="cursor-pointer mt-4" activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={500}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="fill-white animate-bounce"><path d="m18.707 12.707-1.414-1.414L13 15.586V6h-2v9.586l-4.293-4.293-1.414 1.414L12 19.414z"></path></svg>
+        </Link>
+        </div>
+
+          <Header/>
         </div>
         
         <div>
