@@ -12,7 +12,7 @@ export default function Index() {
         <meta name="Description" content="skelee-mini-web" />
         <link rel="icon" href="/Logoicon.png" />
       </Head>
-      <div className="flex flex-col w-screen min-h-screen overflow-x-hidden">
+      <div className="flex flex-col w-screen min-h-screen overflow-x-hidden overflow-y-scroll">
         <img
           src="/rarestudiosnewyork-sitebg.png"
           className="object-cover h-screen w-screen absolute"
