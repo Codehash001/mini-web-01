@@ -17,6 +17,9 @@ export default function Index() {
           src="/rarestudiosnewyork-sitebg.png"
           className="h-screen md:w-screen w-auto fixed top-0"
         />
+        <div className="min-h-screen w-screen flex flex-col">
+          <Header/>
+        </div>
     </>
   );
 }
