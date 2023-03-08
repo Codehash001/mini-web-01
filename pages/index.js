@@ -15,9 +15,9 @@ export default function Index() {
         <link rel="icon" href="/Logoicon.png" />
       </Head>
        <div className='flex flex-col w-screen h-screen overflow-hidden'>
-       	  <img src='/rarestudios-site-bg-new.png' className='object-cover fixed top-0 -z-10'/>
+       	  <img src='/rarestudios-site-bg-new.png' className='object-cover absolute top-0 -z-10'/>
        	  
-       	  <div className='flex flex-col justify-between w-screen h-screen overflow-hidden'>
+       	  <div className='relative flex flex-col justify-between w-screen h-screen overflow-hidden'>
        	    <div className='flex flex-row md:justify-between justify-start items-center md:px-16 px-6 py-6 text-white'>
        	  	<div className='md:text-start text-center flex flex-col items-start font-Kanit w-full'>
        	  		<h1 className='text-xl font-semibold uppercase'>rare studios new york</h1>
