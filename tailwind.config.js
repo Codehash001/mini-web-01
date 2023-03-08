@@ -29,7 +29,7 @@ module.exports = {
       },
       backgroundImage:
         {
-          'bg1' : 'url("https://i.ibb.co/7R0Q7gy/rarestudiosnewyork-sitebg.png")'
+          'bg1' : 'url("https://s2.gifyu.com/images/rarestudiosnewyork-sitebg.png")'
         }
 
     }
