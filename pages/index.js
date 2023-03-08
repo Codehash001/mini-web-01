@@ -24,7 +24,7 @@ export default function Index() {
         /> */}
         <div className="relative h-screen w-screen flex flex-col">
         <div className="absolute md:bottom-[20px] bottom-16 flex flex-col items-center w-screen">
-        <div className="md:hidden flex flex-row justify-center w-full mt-[300px]">
+        <div className="md:hidden flex flex-row justify-center w-full mt-[300px]"> 
           <a
             target="_blank"
             rel="noreferrer"
