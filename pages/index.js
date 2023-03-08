@@ -15,7 +15,7 @@ export default function Index() {
       
         <img
           src="/rarestudiosnewyork-sitebg.png"
-          className="h-screen w-screen fixed top-0"
+          className="h-screen md:w-screen w-auto fixed top-0"
         />
     </>
   );
