@@ -3,6 +3,7 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import FAQ from "../components/FAQs";
 import Header from "../components/header";
+import FAQs from "../components/FAQs";
 
 export default function Index() {
   return (
@@ -66,6 +67,7 @@ export default function Index() {
         </div>
         
         <div>
+          <FAQs/>
           <Footer/>
         </div>
     </>
