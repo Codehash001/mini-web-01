@@ -10,8 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Kanit: [ 'Kanit', ...defaultTheme.fontFamily.sans],
-        LuckiestGuy:['Luckiest Guy' , ...defaultTheme.fontFamily.sans]
-
+        Archivo: [ 'Archivo', ...defaultTheme.fontFamily.sans]
       },
       colors: {
         'brand-01': 'var(--clr-c1)',
