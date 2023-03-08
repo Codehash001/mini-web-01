@@ -13,10 +13,13 @@ export default function Index() {
         <link rel="icon" href="/Logoicon.png" />
       </Head>
       
-        <img
+        <div className="h-screen w-screen bg-bg1 fixed top-0 -z-10 bg-cover bg-no-repeat">
+
+        </div>
+        {/* <img
           src="/rarestudiosnewyork-sitebg.png"
           className="h-screen md:w-screen w-auto fixed top-0 -z-10"
-        />
+        /> */}
         <div className="min-h-screen w-screen flex flex-col">
 
           <Header/>
@@ -61,7 +64,7 @@ export default function Index() {
           </a>
         </div>
         </div>
-
+        
         <div>
           <Footer/>
         </div>

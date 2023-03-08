@@ -29,7 +29,7 @@ module.exports = {
       },
       backgroundImage: (theme)=>(
         {
-          'bg2-img' : "url('../public/Banner2.png')"
+          'bg1' : 'url("../public/rarestudiosnewyork-sitebg.png")'
         }
       )
     }
