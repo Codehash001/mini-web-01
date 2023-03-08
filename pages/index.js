@@ -43,7 +43,7 @@ export default function Index() {
        	  	</div>
        	  </div>
        	  
-       	  <div className='w-full'>
+       	  <div className='w-full mb-[-100px]'>
        	  <div className='md:hidden flex flex-row items-center mb-8 justify-center '>
        	  			<a target='_blank' rel="noreferrer" href='https://twitter.com/skeleenft'>
      					<div className='px-10 py-1  bg-white rounded-md uppercase mx-2 cursor-pointer'>
@@ -59,7 +59,7 @@ export default function Index() {
      				</a>
      				
        	  		</div>
-		<div className='w-full h-[100px] overflow-scroll'>
+		<div className='w-full'>
 		<FAQ/>
 		</div>
        	  
