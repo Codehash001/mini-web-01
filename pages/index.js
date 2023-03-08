@@ -42,7 +42,7 @@ export default function Index() {
        	  	</div>
        	  </div>
        	  
-       	  <div className='absolute bottom-0 w-full'>
+       	  <div className='w-full'>
        	  <Footer/>
        	  </div>
        </div>
