@@ -15,7 +15,7 @@ export default function Index() {
       
         <img
           src="/rarestudiosnewyork-sitebg.png"
-          className="h-screen md:w-screen w-auto fixed top-0"
+          className="h-screen md:w-screen w-auto fixed top-0 -z-10"
         />
         <div className="min-h-screen w-screen flex flex-col">
           <Header/>
