@@ -20,6 +20,10 @@ export default function Index() {
         <div className="min-h-screen w-screen flex flex-col">
           <Header/>
         </div>
+
+        <div>
+          <Footer/>
+        </div>
     </>
   );
 }
