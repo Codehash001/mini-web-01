@@ -13,7 +13,7 @@ export default function Index() {
         <link rel="icon" href="/Logoicon.png" />
       </Head>
       
-        <div className="h-screen w-screen bg-bg1 fixed top-0 -z-10 bg-cover bg-no-repeat">
+        <div className="h-screen w-screen bg-bg1 fixed top-0 -z-10 bg-cover bg-no-repeat bg-center">
 
         </div>
         {/* <img
