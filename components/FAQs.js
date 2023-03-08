@@ -19,8 +19,8 @@ export default function FAQs() {
   };
  
   return (
-  <div className='w-full h-auto mb-[-60px]'>
-    <div id='faqs'className='md:px-16 px-4 py-4 bg-black/30 filter backdrop-blur-sm text-white'>
+  <div className='w-full h-auto md:mb-[-60px]'>
+    <div id='faqs'className='md:px-16 px-4 py-4 bg-black/30 filter backdrop-blur-sm text-white overflow-y-hidden'>
       <Accordion open={open === 1} animate={customAnimation} className='text-start mx-[-10px] border-b border-white'>
         <AccordionHeader onClick={() => handleOpen(1)}>
           Background
