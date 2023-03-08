@@ -12,13 +12,13 @@ export default function Index() {
         <meta name="Description" content="skelee-mini-web" />
         <link rel="icon" href="/Logoicon.png" />
       </Head>
-      <div className="flex flex-col w-screen h-screen overflow-hidden">
+      <div className="flex flex-col w-screen h-screen overflow-x-hidden">
         <img
           src="/rarestudiosnewyork-sitebg.png"
           className="object-cover h-screen w-screen absolute"
         />
 
-        <div className="relative flex flex-col justify-between w-screen h-screen overflow-hidden">
+        <div className="relative flex flex-col justify-between w-screen h-screen overflow-x-hidden">
           {/* header */}
 		  <Header/>
           <div className="w-full">
