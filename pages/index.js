@@ -21,7 +21,7 @@ export default function Index() {
 
           <Header/>
 
-          <div className="md:hidden flex flex-row items-center w-full">
+          <div className="md:hidden flex flex-row justify-center w-full mt-[300px]">
           <a
             target="_blank"
             rel="noreferrer"
