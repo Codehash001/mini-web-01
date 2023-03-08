@@ -15,10 +15,10 @@ export default function Index() {
       <div className="flex flex-col w-screen min-h-screen overflow-x-hidden">
         <img
           src="/rarestudiosnewyork-sitebg.png"
-          className="object-cover h-screen w-screen absolute"
+          className="object-cover h-screen w-screen fixed top-0"
         />
 
-        <div className="relative flex flex-col justify-start w-screen min-h-screen overflow-x-hidden">
+        <div className="relative flex flex-col justify-between w-screen min-h-screen overflow-x-hidden">
           {/* header */}
 		  <Header/>
           <div className="w-full">
