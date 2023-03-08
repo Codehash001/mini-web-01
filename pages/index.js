@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../components/footer'
+import FAQ from '../components/FAQs'
 
 
 
@@ -43,6 +44,7 @@ export default function Index() {
        	  </div>
        	  
        	  <div className='w-full'>
+       	  <FAQ/>
        	  <Footer/>
        	  </div>
        </div>
