@@ -5,8 +5,15 @@ import FAQ from "../components/FAQs";
 import Header from "../components/header";
 import FAQs from "../components/FAQs";
 import { Link } from "react-scroll";
+import { useEffect, useState } from "react";
 
 export default function Index() {
+
+const [ArrowClicked , setArrowClicked ] = usestate(false)
+
+const ArrowClickedHnadler= () => {
+    setArrowClicked(!ArrowClicked);
+  };
   return (
     <>
       <Head>
@@ -64,9 +71,14 @@ export default function Index() {
           </a>
         </div>
 
-        <Link className="cursor-pointer mt-4" activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="fill-white animate-bounce"><path d="m18.707 12.707-1.414-1.414L13 15.586V6h-2v9.586l-4.293-4.293-1.414 1.414L12 19.414z"></path></svg>
+        <Link className={ArrowClicked? "hidden ":"cursor-pointer mt-4" } activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
+        <svg onClick={ArrowClickedHnadler} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="fill-white animate-bounce"><path d="m18.707 12.707-1.414-1.414L13 15.586V6h-2v9.586l-4.293-4.293-1.414 1.414L12 19.414z"></path></svg>
         </Link>
+        
+        <Link className={ArrowClicked ? "cursor-pointer mt-4" : 'hidden'} activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
+        <svg onClick={ArrowClickedHnadler} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="fill-white animate-bounce rotate-90"><path d="m18.707 12.707-1.414-1.414L13 15.586V6h-2v9.586l-4.293-4.293-1.414 1.414L12 19.414z"></path></svg>
+        </Link>
+        
         </div>
 
           <Header/>
