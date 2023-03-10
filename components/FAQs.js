@@ -23,15 +23,15 @@ export default function FAQs() {
   <div className='w-screen h-auto md:mb-0 font-Kanit'>
     <div id='faqs'className='md:px-16 px-4 py-4 bg-black/30 filter backdrop-blur-sm text-white'>
       <Accordion open={open === 1} animate={customAnimation}>
-        <AccordionHeader onClick={() => handleOpen(1)} className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
+        <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
           <div className="w-full flex justify-between">
             <h1 className='uppercase'>Background</h1>
             <div>{open == 1 ?
             (
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
+              <svg onClick={() => handleOpen(1)}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
             ):
             (
-            <Link activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
+            <Link onClick={() => handleOpen(1)}  activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path></svg>
             </Link>
             )
@@ -46,15 +46,15 @@ export default function FAQs() {
 
       
       <Accordion open={open === 2} animate={customAnimation}>
-        <AccordionHeader onClick={() => handleOpen(2)} className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
+        <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
           <div className="w-full flex justify-between">
             <h1 className='uppercase'>Our brands</h1>
             <div>{open == 2 ?
             (
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
+              <svg onClick={() => handleOpen(2)}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
             ):
             (
-              <Link activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
+              <Link onClick={() => handleOpen(2)}   activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path></svg>
               </Link>            )
              }</div>
@@ -68,15 +68,15 @@ export default function FAQs() {
 
       
       <Accordion open={open === 3} animate={customAnimation}>
-        <AccordionHeader onClick={() => handleOpen(3)} className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
+        <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
           <div className="w-full flex justify-between">
             <h1 className='uppercase'>Team</h1>
             <div>{open == 3 ?
             (
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
+              <svg onClick={() => handleOpen(3)}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
             ):
             (
-              <Link activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
+              <Link onClick={() => handleOpen(3)}  activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path></svg>
               </Link>            )
              }</div>
