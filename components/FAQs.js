@@ -21,9 +21,12 @@ export default function FAQs() {
   return (
   <div className='w-full h-auto md:mb-0'>
     <div id='faqs'className='md:px-16 px-4 py-4 bg-black/30 filter backdrop-blur-sm text-white'>
-      <Accordion open={open === 1} animate={customAnimation} className='text-start mx-[-10px] border-b border-white'>
-        <AccordionHeader onClick={() => handleOpen(1)}>
-          Background
+      <Accordion open={open === 1} animate={customAnimation}>
+        <AccordionHeader onClick={() => handleOpen(1)} className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
+          <div className="flex justify-between">
+            <h1>Background</h1>
+            <h1>{open == 1 ? '-':'+'}</h1>
+          </div>
         </AccordionHeader>
         <AccordionBody className='text-justify'>
          des
