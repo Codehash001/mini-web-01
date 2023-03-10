@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 
 export default function Index() {
 
-const [ArrowClicked , setArrowClicked ] = usestate(false)
+const [ArrowClicked , setArrowClicked ] = useState(false)
 
 const ArrowClickedHnadler= () => {
     setArrowClicked(!ArrowClicked);
