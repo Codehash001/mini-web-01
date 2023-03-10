@@ -80,21 +80,21 @@ export default function FAQs() {
         <AccordionBody className='flex flex-col items-start'>
          <div className={open == 3 ? "md:flex items-start justify-start" : 'h-0 hidden'}>
 
-          <div className=" flex flex-col items-start w-full h-full p-4 bg-gray-700">
+          <div className=" flex flex-col items-start w-full h-full p-4 bg-gray-800">
             <img src="team-1.png" className="w-[150px] h-[180px]"/>
             <h1 className="font-semibold text-white text-[18px] mt-1">Ethereum.jpg</h1>
             <h1 className="font-medium text-white text-[15px]">Founder</h1>
             <h1 className="font-medium text-white text-[16px] mt-3">Entrepreneur <br/> & Blockchain OG</h1>
           </div>
           
-          <div className=" flex flex-col items-start w-full h-full p-4 bg-gray-700 md:mx-5">
+          <div className=" flex flex-col items-start w-full h-full p-4 bg-gray-800 md:mx-5">
             <img src="team-4.png" className="w-[150px] h-[180px]"/>
             <h1 className="font-semibold text-white text-[18px] mt-1">Ordinal.jpg</h1>
             <h1 className="font-medium text-white text-[15px]">Founder</h1>
             <h1 className="font-medium text-white text-[16px] mt-3">Gang Leader &<br/>Legit Builder</h1>
           </div>
 
-          <div className=" flex flex-col items-start w-full h-full p-4 bg-gray-700">
+          <div className=" flex flex-col items-start w-full h-full p-4 bg-gray-800">
             <img src="team-3.png" className="w-[150px] h-[180px]"/>
             <h1 className="font-semibold text-white text-[18px] mt-1">CodeHash</h1>
             <h1 className="font-medium text-white text-[15px]">Development Lead</h1>
