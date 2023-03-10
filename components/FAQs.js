@@ -83,7 +83,7 @@ export default function FAQs() {
           </div>
         </AccordionHeader>
         <AccordionBody className='flex flex-col md:items-start items-center'>
-         <div className={open == 3 ? "md:flex items-start justify-start" : 'h-0 hidden'}>
+         <div className={open == 3 ? "md:flex items-start justify-start transition duration-300 ease-in-out" : 'h-0 hidden transition duration-300 ease-in-out'}>
 
           <div className=" flex flex-col items-start w-full h-full p-4 bg-gray-800">
             <img src="team-1.png" className="w-[150px] h-[180px]"/>
