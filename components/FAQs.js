@@ -14,12 +14,12 @@ export default function FAQs() {
   };
  
   const customAnimation = {
-    mount: { scale:1 , opacity:1 },
-    unmount: { scale :0.5 , opacity:0 },
+    mount: { opacity:1 },
+    unmount: { opacity:0 },
   };
  
   return (
-  <div className='w-screen h-auto md:mb-0'>
+  <div className='w-screen h-auto md:mb-0 font-kanit'>
     <div id='faqs'className='md:px-16 px-4 py-4 bg-black/30 filter backdrop-blur-sm text-white'>
       <Accordion open={open === 1} animate={customAnimation}>
         <AccordionHeader onClick={() => handleOpen(1)} className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
