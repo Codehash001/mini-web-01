@@ -39,7 +39,9 @@ export default function FAQs() {
           </div>
         </AccordionHeader>
         <AccordionBody className='text-justify'>
-         des
+         <p className={open==1? 'md:pl-4': 'hidden'}>
+         Welcome to the Rare Studios New York. A web 3 company designed for the next generation of digital entertainment. By combining the power of immersive story-driven experiences with digital & physical collectibles, we are redefining what it means to build a global entertainment brand in the digital age. Here at Rare Studios New York, we firmly believe that the true potential of web3 can only be unleashed if we allow ourselves to dream big, without any constraints holding us back. No boundaries, no leaders, just a group of interesting people coming together to make some seriously epic shit. We are creating a world, where enthusiasts and players alike become the masters of their own creations. As a valued member of our exclusive community of brands, get ready to enter a one-of-a-kind and unforgettable journey with us.
+         </p>
         </AccordionBody>
       </Accordion>
 
@@ -60,8 +62,14 @@ export default function FAQs() {
              }</div>
           </div>
         </AccordionHeader>
-        <AccordionBody className='text-justify'>
-         des
+        <AccordionBody className='text-start'>
+           <p className={open==2? 'md:pl-4': 'hidden'}>
+        	Skelee <br/>
+		Project P1 <br/>
+		Galactaverse <br/>
+		Meta Courts <br/>
+		Akami Cats
+          </p>
         </AccordionBody>
       </Accordion>
 
